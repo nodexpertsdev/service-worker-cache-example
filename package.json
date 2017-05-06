@@ -1,0 +1,25 @@
+{
+  "name": "service-worker-cache-example",
+  "version": "1.0.0",
+  "description": "Simple javascript app to demonstrate caching of file using JavaScript Service Workers",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodexpertsdev/service-worker-cache-example.git"
+  },
+  "keywords": [
+    "service-workers",
+    "javascript",
+    "caching"
+  ],
+  "author": "NodeXperts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodexpertsdev/service-worker-cache-example/issues"
+  },
+  "homepage": "https://github.com/nodexpertsdev/service-worker-cache-example#readme"
+}
