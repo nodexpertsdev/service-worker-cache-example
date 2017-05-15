@@ -28,3 +28,15 @@ Once service-worker is activated, you can stop the server and refresh (not hard-
 Also you can see in chrome if your service worker is registered or not by going in `chrome://serviceworker-internals/`.
 
 You can add/remove files from `service-worker.js` to see changes after stoping the server (don't forget to unregister the old service worker from browser console).
+
+Modify this in `service-worker.js` to see the various changes.
+ 
+```
+var name = 'simple nodexperts cache v2',
+    filesToCache = [
+      './index.html',
+      './css/style.css',
+      './script.js',
+      './service-worker.js'
+    ];
+```
